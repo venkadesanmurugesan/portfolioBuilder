@@ -1,0 +1,51 @@
+* {
+  font-family: serif;
+}
+
+/* center div styles */
+.centerStyle {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* button common style */
+.buttonCommon {
+  background-color: #485461;
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+}
+.buttonCommon:hover {
+  background-color: #485461;
+  color: #fff;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+}
+/* vertical navbar menu */
+.verticalMenu {
+  list-style-type: none;
+  padding: 0;
+}
+.verticalMenu li a {
+  color: black;
+  display: block;
+  padding: 16px;
+  font-size: larger;
+  text-decoration: none;
+}
+.verticalMenu li a:hover {
+  background-color: #6c757d;
+  color: white;
+}
+.verticalMenu li a.active {
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+  color: white;
+}
